@@ -6,7 +6,6 @@ define(['uiRegistry'], function (registry) {
     'use strict';
 
     return function (origComponent) {
-        console.log('Shipping method mixin here');
         return origComponent.extend({
             defaults: {
                 shippingMethodListTemplate: 'MageWorx_DisableCarrierColumn/shipping-address/shipping-method-list',
